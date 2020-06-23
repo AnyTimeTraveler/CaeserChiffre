@@ -28,14 +28,14 @@ public class Chiffre {
         char[] input = plaintext.toCharArray();
         char[] output = new char[plaintext.length()];
 
-        // fuer jeden Buchstaben im Input:
+        // für jeden Buchstaben im Input:
         for (int i = 0; i < input.length; i++) {
             // Schritt 1
             // Indem man den Wert von 'a' abzieht, erhält man:
             // 'a' = 0
             // 'z' = 25
             // Das ist effektiv das gleiche, wie das Array aber mit Mathe und effizienter
-            // Die Verschiebung ist noetig, damit Schritt 3 funktioniert.
+            // Die Verschiebung ist nötig, damit Schritt 3 funktioniert.
             int buchstabeAlsZahl = input[i] - 'a';
 
             // Schritt 2
@@ -68,7 +68,7 @@ public class Chiffre {
 
         String ergebnis = "";
 
-        // das ist das Gleiche, wie in der Arbeit aber kuerzer
+        // das ist das Gleiche, wie in der Arbeit aber kürzer
         char[] abc = "abcdefghijklmnopqrstuvwxyz".toCharArray();
 
         // fuer jeden Buchstaben im Input:
