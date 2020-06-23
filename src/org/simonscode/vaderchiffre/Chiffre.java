@@ -14,7 +14,7 @@ public class Chiffre {
         assertEquals("bvup", aufgabe6("auto", 1));
         assertEquals("leyw", aufgabe6("haus", 4));
         assertEquals("dddd", aufgabe6("aaaa", 3));
-        assertEquals("ccdfcc", aufgabe6("zzzz", 3));
+        assertEquals("cccc", aufgabe6("zzzz", 3));
         assertEquals("xxxx", aufgabe6("xxxx", 26));
         System.out.println("OK");
 
